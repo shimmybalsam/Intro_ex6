@@ -1,0 +1,30 @@
+shimmy10
+204693352
+Shimon Balsam
+
+
+I discussed the exercise with:
+Eyal Raber and Constantin Shafranski, Lab Support.
+
+=============================
+= README for ex6: ex6.py
+=============================
+
+===========================
+=  Description: =
+
+One program which defines different functions which take a given image and
+builds a replica of the image, using a given amount of different pictures which
+are used as pixels/pieces of this new replica.
+The program does so by cpmapring the average RGB values (colors) of each piece
+and compares it to the RGB of the area (the size of the piece) in original
+image, and will place the piece with the closest average to the original.
+Once all the pieces are compared and placed in there most accurate slots,
+the mosaic copy of the origina image will be created.
+====================================================
+
+===================================
+= Special Comments =
+None
+======================
+
